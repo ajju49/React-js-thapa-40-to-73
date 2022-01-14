@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  background-color: rgb(116, 191, 183);
+  text-align: center;
+}
+.main_menu {
+  background-color: crimson;
+  line-height: 50px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 35vh;
+}
+a {
+  /* when we use a for Navlink elements then text-decoration:none property will be applied. If we use className to give text-decoration:none property then it will not work*/
+  color: white;
+  text-decoration: none;
+}
+
+.menu_link {
+  /*activeClassname */
+  color: yellow;
+  text-decoration: none;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bolder;
+  font-size: 70px;
+}
+p {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
